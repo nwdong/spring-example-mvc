@@ -39,6 +39,6 @@ And select Web -> Web as dependency (Boot Version 1.5.6 for this example)
 
 There are couple of ways to run it
 
-- in STS, from project context menu, select “Run As -> Spring Boot App”
+- in STS, from project context menu, select “Run As -> Spring Boot App” (it contains Embedded Tomcat server)
 
 - deploy to web server (in STS, from project context menu, select “Run As -> Run on Server”)
