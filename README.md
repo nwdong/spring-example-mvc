@@ -2,6 +2,31 @@
 
 It's a demo to show how to use Spring Boot to bootstrap a web application which implements a register function.
 
+## bootstrap 
+
+Example to show 
+
+- controller GET
+
+- how controller links JSP
+
+visit link 
+
+http://localhost:8080/
+
+
+## example 1 
+
+Example to show
+ 
+- link JSPs
+
+- form data transfer
+
+visit link
+
+http://localhost:8080/example1-register
+
 # Development Environment
 
 - Spring Tools Suite 3.8.2.RELEASE
@@ -40,5 +65,7 @@ And select Web -> Web as dependency (Boot Version 1.5.6 for this example)
 There are couple of ways to run it
 
 - in STS, from project context menu, select “Run As -> Spring Boot App” (it contains Embedded Tomcat server)
+
+- run from java command (make sure to use the war file with original extension) 
 
 - deploy to web server (in STS, from project context menu, select “Run As -> Run on Server”)
