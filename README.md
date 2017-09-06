@@ -1,31 +1,6 @@
 # Overview
 
-It's a demo to show how to use Spring Boot to bootstrap a web application which implements a register function.
-
-## bootstrap 
-
-Example to show 
-
-- controller GET
-
-- how controller links JSP
-
-visit link 
-
-http://localhost:8080/
-
-
-## example 1 
-
-Example to show
- 
-- link JSPs
-
-- form data transfer
-
-visit link
-
-http://localhost:8080/example1-register
+Demo to show how to use Spring Boot to bootstrap web application, persistence, security.
 
 # Development Environment
 
@@ -69,3 +44,50 @@ There are couple of ways to run it
 - run from java command (make sure to use the war file with original extension) 
 
 - deploy to web server (in STS, from project context menu, select “Run As -> Run on Server”)
+
+# Tags
+
+Each tag shows independent code using certain Spring Boot feature (mvc, persistence, security)
+
+## skeleton
+
+The skeleton generated through Spring Boot
+
+## first-jsp
+
+Example to show 
+
+- JSP dependencies 
+
+- simple controller (GET)
+
+- how controller links JSPs
+
+visit link: http://localhost:8080/
+
+
+## jsp-form
+
+example 1 to show
+ 
+- link JSPs
+
+- form data transfer
+
+visit link: http://localhost:8080/example1-register
+
+## jsp-validation-persistence
+
+example 2 to show
+
+- JSP Spring tags and form validation
+
+- Messages
+
+- Persistence (w/ H2 in-memory database)
+
+- Log (Spring Logging Framework)
+
+- Spring testing
+
+visit link: [http://localhost:8080/example2-register](http://localhost:8080/example2-register)
