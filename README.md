@@ -1,6 +1,6 @@
 # Overview
 
-Demo to show how to use Spring Boot to bootstrap web application, persistence, security.
+Demo to show how to use Spring Boot to bootstrap web application (JSP).
 
 # Development Environment
 
