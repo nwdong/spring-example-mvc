@@ -41,7 +41,7 @@ There are couple of ways to run it
 
 - in STS, from project context menu, select “Run As -> Spring Boot App” (it contains Embedded Tomcat server)
 
-- run from java command (make sure to use the war file with original extension) 
+- run from command (make sure to use the war file without original extension, the original one doesn't have self-contained server) 
 
 - deploy to web server (in STS, from project context menu, select “Run As -> Run on Server”)
 
