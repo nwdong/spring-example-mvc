@@ -13,7 +13,7 @@ Demo to show how to use Spring Boot to bootstrap web application (JSP).
 Check Maven settings
 
 - Go to Window > Preferences > Maven > Installations, add the maven to use (by default, embedded one is used)
-- Go to Window > Preferences > Maven > User Setting, change “User Settings” to point to the right settings.xml which might have internal repository and proxy settings
+- Go to Window > Preferences > Maven > User Setting, change “User Settings” to point to the right settings.xml which might have internal mirror repository and proxy settings
 
 Check Java compiler setting
 
